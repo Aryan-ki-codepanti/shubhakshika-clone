@@ -319,15 +319,15 @@ nav ul li a {
     cursor: pointer;
 }
 
-.our-projects__buttons-rail{
+.our-projects__buttons-rail {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-.our-projects-section .our-projects__button{
-    background: #00A7F6;
+.our-projects-section .our-projects__button {
+    background: #00a7f6;
     border-radius: 8px;
     width: 20px;
     height: 14px;
@@ -336,8 +336,8 @@ nav ul li a {
     opacity: 1 !important;
     transition: all 0.4s ease;
 }
-.our-projects-section .our-projects__button--active{
-    background: #484D54;
+.our-projects-section .our-projects__button--active {
+    background: #484d54;
 }
 
 /* Our projects Swiper */
@@ -347,9 +347,48 @@ nav ul li a {
 }
 
 .swiper-button-next,
-.swiper-button-prev{
+.swiper-button-prev {
     visibility: hidden;
 }
-.swiper-pagination{
+.swiper-pagination {
     margin-top: 50px;
+}
+
+/* Our projects modal */
+.our-projects__modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.our-projects__modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.our-projects__close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.our-projects__close:hover,
+.our-projects__close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -198,6 +198,8 @@
                                 </p>
                             </div>
                             <img
+                                id="our-projects__myBtn"
+                                onclick="ourProjectsHandler(1)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -218,6 +220,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(2)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -236,6 +239,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(3)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -257,6 +261,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(4)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -276,6 +281,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(5)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -296,6 +302,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(1)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -318,6 +325,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(2)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -336,6 +344,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(3)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -355,6 +364,7 @@
                                 </p>
                             </div>
                             <img
+                                onclick="ourProjectsHandler(4)"
                                 class="card__arrow-right"
                                 src="img/arrow-right.svg"
                                 alt=""
@@ -368,10 +378,21 @@
             </div>
         </section>
 
+        <!-- The Modal -->
+        <div id="our-projects__myModal" class="our-projects__modal">
+            <!-- Modal content -->
+            <div class="our-projects__modal-content">
+                <span class="our-projects__close">&times;</span>
+                <h2 id="our-projects__modal__h2"></h2>
+                <p id="our-projects__modal__p"></p>
+            </div>
+        </div>
+
         <!-- Swiper JS -->
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <!-- Custom JS -->
         <script src="js/carousel.js"></script>
         <script src="js/navbar.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>
